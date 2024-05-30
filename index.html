@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Bio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fb_bio_card">
+      <div class="fb_bio_header"><h3>Into</h3></div>
+      <div class="fb_bio_header">
+        <div class="fb_bio_add">
+          <button id="addBio">Add Bio</button>
+        </div>
+        <div class="fb_bio_edit">
+          <textarea placeholder="Enter bio text" id="bioContent"></textarea>
+          <div class="edit_text">
+            <p id="remain">101 characters remaining</p>
+            <div class="buttons">
+              <button id="bioCancel">Cancel</button>
+              <button id="bioSave">Save</button>
+            </div>
+          </div>
+        </div>
+        <div class="fb_bio_show">
+          <p id="bioData"></p>
+          <button id="editBio">Edit bio</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
